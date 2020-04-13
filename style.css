@@ -7,7 +7,7 @@
     opacity: 0.75;
   }
   
-  /*Change the color of links on hoaver */
+  /* Change the color of links on hoaver */
   .topnav a:hover {
     background-color: #ddd;
     color: blue;
@@ -16,13 +16,87 @@
   /* Right-aligned section inside the top navigation */
   .topnav-right {
     float: right;
+    text-align: center;
+    padding-right: 15px;
+    opacity: 0.75;
   }
+  
+  /* Move the App picture to the right of the page */
+  .app {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+    vertical-align: top;
+  }
+  
+  .name {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: auto;
+    width: 10%;
+    vertical-align: top;
+  }
+  
+  /* Add in Google Label */
   
   .center {
     display: block;
-    margin-left: auto;
+    margin-left: 400px;
     margin-right: auto;
     width: 30%;
     vertical-align: middle;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  /* Style the search field */
+  
+  .search input[type=text] {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: rgba(0, 0, 0, 087);
+    word-wrap: break-word;
+    outline: none;
+    flex: 100%;
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+  }
+  
+  /* Style the magnifying glass */
+  
+  .mag {
+    margin: 4px;
+    width: 20px;
+    vertical-align: middle;
+  
+  }
+  
+  /* Style the Microphone */
+  
+  .mic {
+    margin: 1px;
+    width: 18px;
+    vertical-align: middle;
+  }
+  
+  /* Style the Search Box */
+  
+  .search {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 34px;
+    margin: 0 auto;
+    width: 482px;
+    margin-top: 20px;
+   
   }
   
